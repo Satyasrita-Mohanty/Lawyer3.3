@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+::selection {
+  background:#c1928b;
+    color:#fff;/* WebKit/Blink Browsers */
+}
+::-moz-selection {
+   background:#c1928b;
+    color:#fff;/* Gecko Browsers */
+}
+*{
+    box-sizing: border-box;
+}
+::selection {
+  background:#c1928b;
+    color:#fff;/* WebKit/Blink Browsers */
+}
+::-moz-selection {
+   background:#c1928b;
+    color:#fff;/* Gecko Browsers */
+}
+.jumbotron-header1{
+   background-color: #a9b04f; 
+    padding: 6px 0px;
+}
+
+nav{
+    padding: 0;
+    margin: 0;
+}
+.jumbotron-header {
+    
+    padding: 10px 0px;
+}
+.jumbotron-header2{
+  background-color: #1a1a1a;  
+}
+.navLink{
+   font-family: 'Montserrat', sans-serif;
+   color: #ffffff;
+   font-size: 16px;
+   text-decoration: none;
+}
+.navLink:hover{
+   text-decoration: none; 
+   color:  #747936;
+}
+
+.active1{
+   color:  #ffffff;  
+}
+.jumbotron-footer{
+   background:#060506 !important;
+	border-radius: 0px !important;
+	background-repeat: no-repeat;
+    background-size: cover;
+	text-align:left;
+	padding: 70px 0px 30px 0px !important;
+    margin: 0px;
+}
+.footer-heading{
+	color: #fff;
+	font-size:16px;
+	text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+	 font-family: 'Montserrat', sans-serif;
+ 
+}
+.footer-links{
+	color: #eee;
+	font-size:14px;
+	text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 8px 0px 8px 0px;
+    line-height: 32px !important;
+}
+.footer-links:hover{
+	color: #fff !important;
+    text-decoration: none;
+}
+.footer-social-icon{
+    color: #fff;
+    font-size: 15px;
+}
+.logo{
+     color: #ffffff !important;
+     font-weight: bold;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 26px;
+     letter-spacing: 2px;
+}
+
+.logo1{
+     color: #ffffff !important;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 12px;
+}
+.navLink1{
+    color: #000000 !important;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 10px !important;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+.navLink1:hover{
+    color: #e8b417 !important; 
+    background-color: transparent;
+}
+.logo3 {
+   color:  #a9b04f !important;
+   font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 1px;   
+    margin-top: -10px;
+}
+.subContent{
+   font-family: 'Montserrat', sans-serif; 
+    color:  #000000 !important;
+    text-transform: capitalize;
+    font-size: 15px;
+    text-decoration: none;
+}
+.subContent:hover{
+     text-decoration: none;
+     color:  #000000 !important;
+}
+.heading1Clr{
+    font-family: 'Montserrat', sans-serif;
+    color: #a9b04f;
+    font-size: 28px;
+    font-weight: bold;
+}
+.jumbotron-header{
+    margin-top: 5px;
+}
+.navLink1{
+    color: #000000 !important;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 10px !important;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+.navLink1:hover{
+    color: #a9b04f !important; 
+    background-color: transparent;
+}
+.consulButton{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color:  #ffffff;
+    padding: 16px 21px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.consulButton:hover{
+    border: 2px solid  #000000;
+    background-color: transparent;
+    color: #000000;
+    text-decoration: none;
+}
+/* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 580px;
+  }
+#demo .carousel-indicators{
+    bottom: 10px;
+}
+.carousel-indicators li{
+   width: 11px;
+   height: 11px;
+   border-radius: 50%;
+   background-color: #a9b04f;
+}
+#demo .carousel-caption{
+    left: 10%;
+    text-align: left;
+    padding-bottom:40px;
+    margin-right: 150px;
+}
+#demo {
+    margin-top: -25px;
+    z-index: -2;
+}
+.bigHeading{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 1px;  
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.smallHeading{
+    font-family: 'Roboto', sans-serif;
+    color: #f2f2f2;
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.heading{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.6; 
+    letter-spacing: 1px;
+}
+.heading1{
+    font-family: 'Montserrat', sans-serif;
+    color: #8c8c8c;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1.6; 
+    letter-spacing: 1px; 
+    margin-bottom: 5px;
+}
+.heading1ClrB{
+    font-size: 40px;
+}
+.bottomBorder{
+    border-bottom: 1px solid  #b3b3b3;
+    margin: 15px 0px;
+}
+.smallHeadingGrey{
+    color: #b3b3b3;
+}
+.consulButtonClr{
+    background-color: #a9b04f;
+    color: #ffffff;
+    padding: 13px 16px;
+}
+.consulButtonClr:hover{
+    background-color: transparent;
+    color: #000000;
+    border: 2px solid #a9b04f;
+}
+.heading2{
+    font-size: 22px;
+}
+.greyBack{
+   background-color: #f2f2f2;
+   padding: 40px 0px;
+}
+.bigHeading1{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+.headingClrsmall{
+    color: #a9b04f;
+    font-size: 13px;
+    margin-top: -14px;
+    margin-bottom: 5px;
+}
+.img1{
+    height: 340px !important;
+    width: 100% !important;
+}
+.clrBack{
+    padding: 20px 0px;
+    background-color: #a9b04f;
+    margin-top: -55px;
+}
+.smallHeadingWhite{
+    color: #ffffff      
+}
+
+
+
+/* Extra small devices (phones, 320px and down)  start */
+@media only screen and (max-width: 320px) {
+
+   .smallHeading{
+        font-size: 12px !important;
+    }
+    .bigHeading1{
+        font-size: 17px !important;
+    }
+     .bigHeading1{
+        font-size: 17px !important;
+    }
+}
+
+
+/* Medium devices ( 767px and down) start */
+@media only screen and (max-width: 767px){ 
+    .bigHeading{
+        font-size: 17px !important; 
+    }
+    .smallHeading{
+        font-size: 15px;
+    }
+    .jumbotron-header2{
+        display: none;
+    }
+    .logo3{
+        font-size: 28px;
+        margin-top: -50px;
+    }
+    #demo .carousel-caption{
+       display: none;
+    }
+    .carousel-inner img{
+        height: 300px;
+    }
+     .bigHeading1{
+        font-size: 17px;
+    }
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up)  start*/
+@media only screen and (min-width: 768px) {
+  .navLink{
+    padding: 0px 10px;     
+   }
+   .bigHeading{
+        font-size: 26px;
+    }
+    .smallHeading{
+       font-size: 14px;  
+    } 
+    .logo3 {
+      margin-left: 60px;
+    }
+    .bigHeading1{
+        font-size: 27px;
+    }
+}
+    
+
+/* Medium devices ( 768px and down) start */
+@media only screen and (max-width: 768px){ 
+    .heading1Clr{
+        font-size: 15px;
+    }
+    .subContent{
+        font-size: 12px;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up)  start*/
+@media only screen and (min-width: 992px) {
+  .navLink{
+     padding: 0px 4px;     
+   } 
+    .bigHeading{
+        font-size: 38px;
+    }
+    .smallHeading{
+       font-size: 13px;  
+    } 
+    .logo3 {
+      margin-left: 135px;
+    }
+    .bigHeading1{
+        font-size: 32px;
+    }
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up)  start*/
+@media only screen and (min-width: 1200px) {
+  .navLink{
+     padding: 0px 14px;     
+   }
+    .bigHeading{
+        font-size: 39px;
+    }
+    .smallHeading{
+       font-size: 14px !important;  
+    } 
+     .logo3 {
+      margin-left: 170px;
+    }
+}
