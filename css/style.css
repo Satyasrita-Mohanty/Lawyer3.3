@@ -275,6 +275,16 @@ nav{
 .smallHeadingWhite{
     color: #ffffff      
 }
+.sideImg{
+    border: 2px solid #a9b04f;
+    width: 100% !important;
+}
+.whiteBox{
+   background-color: #ffffff;
+    padding: 40px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: -450px;
+}
 
 
 
